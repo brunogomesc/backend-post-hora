@@ -1,0 +1,6 @@
+pandas>=0.18.1
+numpy
+Flask==1.0.2
+Flask-Cors==3.0.7
+webdriver-manager>=3.5.1
+selenium>=4.1.2
