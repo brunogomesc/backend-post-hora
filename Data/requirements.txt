@@ -5,3 +5,4 @@ Flask-Cors==3.0.7
 webdriver-manager>=3.5.1
 selenium>=4.1.2
 pymssql == 2.2.0
+sqlalchemy == 1.4
