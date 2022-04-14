@@ -1,9 +1,10 @@
-from flask import Flask, jsonify, request, redirect
+from flask import Flask, request, redirect
 import os, json
 from flask_cors import CORS
 from Data.actionsDatabase import insertUser, authLogin, insertUserNetwork, authNetworksLogin, savesScheduleDatabase, saveScheduleFiles, getIdQueue, nextSchedules, allSchedules, completedSchedules, deleteScheduleDatabase, updateScheduleDatabase, deleteNetworkDatabase, updateNetworkDatabase
 from AutomacaoInstagram.ExtrairInfos import userAutenticate, alterFilename, validateIsVideos
 from werkzeug.utils import secure_filename
+import  AutoInstagram
 
 app = Flask(__name__)
 
@@ -145,6 +146,16 @@ def updateNetwork():
             password = request.json['pass']
             return updateNetworkDatabase(user, network, password)
 
+
+@app.route('/home', methods=["GET"])
+def home():
+      AutoInstagram.home()
+      return 'Sucessfull'
+
+
+@app.route('/', methods=["GET"])
+def running():
+      return 'API is Running'
 
 if __name__ == "__main__":
       app.run(debug=False)
