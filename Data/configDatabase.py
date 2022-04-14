@@ -2,7 +2,7 @@ import sqlalchemy as sa
 
 
 def return_connection_pyodbc():
-
+      
     conexao = (
         "Driver={SQL Server};"
         "Server=BRUNO-COSTA\SQL_PROJECTS;"
