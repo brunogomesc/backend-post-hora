@@ -2,20 +2,25 @@ from distutils.log import error
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 import time, os, json
+
+from sqlalchemy import false
 from Data.configDatabase import return_connection_pyodbc
 import pandas as pd
 import pyodbc
 from datetime import datetime
 
 
-def postScheduleInstagramUnique(idQueue, isVideo, user, password, fileName, legend):
+def postScheduleInstagramUnique(idQueue, user, password, fileName, legend):
+
+      isVideo = false;
+
       status = 0
 
-      chrome_options = Options()
+      #chrome_options = Options()
 
-      chrome_options.add_argument("--headless")
+      #chrome_options.add_argument("--headless") , chrome_options=chrome_options
 
-      navegador = webdriver.Chrome("chromedriver.exe", chrome_options=chrome_options)
+      navegador = webdriver.Chrome("chromedriver.exe")
 
       navegador.get("https://www.instagram.com/")
 
@@ -27,7 +32,7 @@ def postScheduleInstagramUnique(idQueue, isVideo, user, password, fileName, lege
 
       navegador.find_element_by_xpath('//*[@id="loginForm"]/div/div[3]/button/div').click()
 
-      time.sleep(5)
+      time.sleep(10)
 
       errorAlert = navegador.find_elements_by_xpath('//*[@id="slfErrorAlert"]')
 
@@ -37,20 +42,20 @@ def postScheduleInstagramUnique(idQueue, isVideo, user, password, fileName, lege
             # não salvar infos de login
             navegador.find_element_by_xpath('//*[@id="react-root"]/section/main/div/div/div/div/button').click()
 
-            time.sleep(7)
+            time.sleep(10)
 
             # não salvar notificação
             navegador.find_element_by_xpath('/html/body/div[6]/div/div/div/div[3]/button[2]').click()
 
-            time.sleep(5)
+            time.sleep(10)
 
             # clicar no botão de postagem
             navegador.find_element_by_xpath('//*[@id="react-root"]/section/nav/div[2]/div/div/div[3]/div/div[3]/div/button/div').click()
 
-            time.sleep(5)
+            time.sleep(10)
 
             # faz upload do arquivo 
-            navegador.find_element_by_xpath('/html/body/div[8]/div[2]/div/div/div/div[2]/div[1]/form/input').send_keys(os.path.abspath('../temp/' + str(fileName)))
+            navegador.find_element_by_xpath('/html/body/div[8]/div[2]/div/div/div/div[2]/div[1]/form/input').send_keys(os.path.abspath('./temp/' + str(fileName)))
 
             time.sleep(5)
 

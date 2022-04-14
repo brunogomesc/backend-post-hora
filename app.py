@@ -88,7 +88,7 @@ def upload_file():
                   filename = alterFilename(idLogin, date, time, networkActive, secure_filename(file.filename))
                   saveScheduleFiles(id_queue, filename)
 
-            return redirect('http://localhost:8080/#/Homepage')
+            return redirect('https://frontendposthora.z13.web.core.windows.net/#/Homepage')
 
 
 @app.route("/auth/social_network_save", methods=["GET"])
@@ -153,7 +153,7 @@ def home():
       return 'Sucessfull'
 
 
-@app.route('/', methods=["GET"])
+@app.route('/run', methods=["GET"])
 def running():
       return 'API is Running'
 

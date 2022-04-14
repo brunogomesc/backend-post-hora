@@ -38,7 +38,7 @@ def alterFilename(idUser, date, time, networkActive, filename):
     arquivo, extensao = os.path.splitext(filename)
     new_date = ''.join(filter(str.isalnum, date)) 
     new_time = ''.join(filter(str.isalnum, time)) 
-    new_filename = str(idUser) + '_' + str(networkActive) +  '_' +  str(new_date) + '_' + str(new_time) + '_' + str(random.randrange(1, int(len(arquivo)))) + str(extensao)
+    new_filename = str(idUser) + '_' + str(networkActive) +  '_' +  str(new_date) + '_' + str(new_time) + str(extensao)
     return new_filename
 
 
