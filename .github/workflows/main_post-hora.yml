@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'post-hora'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_AC9508C5E87443969839832429DCEC87 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_3FFFF676EC434714B41F86BF46C4BA56 }}
