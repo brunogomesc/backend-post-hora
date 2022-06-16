@@ -1,8 +1,8 @@
 from distutils.log import error
 from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
+from selenium.webdriver import FirefoxOptions
+#from selenium.webdriver.chrome.options import Options
 import time, os, json
-
 from sqlalchemy import false
 from Data.configDatabase import return_connection_pyodbc
 import pandas as pd
@@ -12,84 +12,101 @@ from datetime import datetime
 
 def postScheduleInstagramUnique(idQueue, user, password, fileName, legend):
 
-      isVideo = false;
+      isVideo = false
 
       status = 0
 
-      #chrome_options = Options()
+      optionsFirefox = FirefoxOptions()
 
-      #chrome_options.add_argument("--headless") , chrome_options=chrome_options
+      optionsFirefox.headless = True
 
-      navegador = webdriver.Chrome("chromedriver.exe")
+      navegador = webdriver.Firefox(executable_path="./geckodriver", options=optionsFirefox)
 
       navegador.get("https://www.instagram.com/")
 
-      time.sleep(2)
+      print('acessou site')
 
-      navegador.find_element_by_xpath('//*[@id="loginForm"]/div/div[1]/div/label/input').send_keys(user)
+      time.sleep(5)
 
-      navegador.find_element_by_xpath('//*[@id="loginForm"]/div/div[2]/div/label/input').send_keys(password)
+      navegador.find_element_by_xpath('/html/body/div[1]/section/main/article/div[2]/div[1]/div[2]/form/div/div[1]/div/label/input').send_keys(user)
 
-      navegador.find_element_by_xpath('//*[@id="loginForm"]/div/div[3]/button/div').click()
+      navegador.find_element_by_xpath('/html/body/div[1]/section/main/article/div[2]/div[1]/div[2]/form/div/div[2]/div/label/input').send_keys(password)
+
+      navegador.find_element_by_xpath('/html/body/div[1]/section/main/article/div[2]/div[1]/div[2]/form/div/div[3]/button').click()
 
       time.sleep(10)
+
+      print('realizou login')
 
       errorAlert = navegador.find_elements_by_xpath('//*[@id="slfErrorAlert"]')
 
       if len(errorAlert) == 0:
             status = 1
 
-            # não salvar infos de login
-            navegador.find_element_by_xpath('//*[@id="react-root"]/section/main/div/div/div/div/button').click()
+            print('entrou')
 
-            time.sleep(10)
+            # não salvar infos de login
+            navegador.find_element_by_xpath('/html/body/div[1]/section/main/div/div/div/div/button').click()
+
+            print('logou na conta')
+
+            time.sleep(30)
 
             # não salvar notificação
-            navegador.find_element_by_xpath('/html/body/div[6]/div/div/div/div[3]/button[2]').click()
+            # navegador.find_element_by_xpath('/html/body/div[6]/div/div/div/div[3]/button[2]').click()
 
-            time.sleep(10)
+            # time.sleep(90)
 
             # clicar no botão de postagem
-            navegador.find_element_by_xpath('//*[@id="react-root"]/section/nav/div[2]/div/div/div[3]/div/div[3]/div/button/div').click()
+            
+            postagem = navegador.find_element_by_xpath("/html/body/div[1]/div/div[1]/div/div[1]/div/div/div[1]/div[1]/section/nav/div[2]/div/div/div[3]/div/div[3]/div/button")
 
-            time.sleep(10)
+            navegador.execute_script("arguments[0].click()", postagem)
+
+            print('postagem')
+
+            time.sleep(30)
 
             # faz upload do arquivo 
-            navegador.find_element_by_xpath('/html/body/div[8]/div[2]/div/div/div/div[2]/div[1]/form/input').send_keys(os.path.abspath('./temp/' + str(fileName)))
+            navegador.find_element_by_xpath('/html/body/div[1]/div/div[1]/div/div[2]/div/div/div[1]/div/div[3]/div/div/div/div/div/div/div/div/div[2]/div[1]/form/input').send_keys(os.path.abspath('./temp/' + str(fileName)))
 
-            time.sleep(5)
+            time.sleep(30)
+
+            print('escolheu arquivo')
 
             # da next no redimensionamento do arquivo
-            navegador.find_element_by_xpath('/html/body/div[6]/div[2]/div/div/div/div[1]/div/div/div[3]/div/button').click()
+            navegador.find_element_by_xpath('/html/body/div[1]/div/div[1]/div/div[2]/div/div/div[1]/div/div[3]/div/div/div/div/div/div/div/div/div[1]/div/div/div[3]/div/button').click()
 
-            time.sleep(5)
+            time.sleep(30)
 
             # da next nos filtros
-            navegador.find_element_by_xpath('/html/body/div[6]/div[2]/div/div/div/div[1]/div/div/div[3]/div/button').click()
+            navegador.find_element_by_xpath('/html/body/div[1]/div/div[1]/div/div[2]/div/div/div[1]/div/div[3]/div/div/div/div/div/div/div/div/div[1]/div/div/div[3]/div/button').click()
 
-            time.sleep(5)
+            time.sleep(30)
 
             # clica na textarea
-            navegador.find_element_by_xpath('/html/body/div[6]/div[2]/div/div/div/div[2]/div[2]/div/div/div/div[2]/div[1]/textarea').click()
+            navegador.find_element_by_xpath('/html/body/div[1]/div/div[1]/div/div[2]/div/div/div[1]/div/div[3]/div/div/div/div/div/div/div/div/div[2]/div[2]/div/div/div/div[2]/div[1]/textarea').click()
 
             # escreve a legenda
-            navegador.find_element_by_xpath('/html/body/div[6]/div[2]/div/div/div/div[2]/div[2]/div/div/div/div[2]/div[1]/textarea').send_keys(legend)
+            navegador.find_element_by_xpath('/html/body/div[1]/div/div[1]/div/div[2]/div/div/div[1]/div/div[3]/div/div/div/div/div/div/div/div/div[2]/div[2]/div/div/div/div[2]/div[1]/textarea').send_keys(legend)
 
             # da next nas legendas
-            navegador.find_element_by_xpath('/html/body/div[6]/div[2]/div/div/div/div[1]/div/div/div[3]/div/button').click()
+            navegador.find_element_by_xpath('/html/body/div[1]/div/div[1]/div/div[2]/div/div/div[1]/div/div[3]/div/div/div/div/div/div/div/div/div[1]/div/div/div[3]/div/button').click()
 
             if isVideo:
-                  time.sleep(30)
+                  time.sleep(50)
             else:
-                  time.sleep(10)
+                  time.sleep(30)
 
             status = updateSchedulesDatabase(idQueue=idQueue)
+
+            print('publicou')
 
       
       else:
             print("Erro localizado - " + str(error))
 
-      navegador.close()
+            navegador.close()
 
       return {"autenticate": status}
 
@@ -139,6 +156,8 @@ def home():
       result = searchSchedules()
 
       contador = 0
+
+      print(result)
 
       while contador < len(result):
             if result[contador][1] <= str(datetime.today()):

@@ -2,15 +2,20 @@ from flask import Flask, request, redirect
 import os, json
 from flask_cors import CORS
 from Data.actionsDatabase import insertUser, authLogin, insertUserNetwork, authNetworksLogin, savesScheduleDatabase, saveScheduleFiles, getIdQueue, nextSchedules, allSchedules, completedSchedules, deleteScheduleDatabase, updateScheduleDatabase, deleteNetworkDatabase, updateNetworkDatabase
-from AutomacaoInstagram.ExtrairInfos import userAutenticate, alterFilename, validateIsVideos
+from AutomacaoInstagram.ExtrairInfos import userAutenticateInstagram, alterFilename, validateIsVideos
 from werkzeug.utils import secure_filename
 import  AutoInstagram
+import ssl
 
 app = Flask(__name__)
+
+context = ssl.SSLContext()
+context.load_cert_chain('192.168.15.3+4.pem', '192.168.15.3+4-key.pem')
 
 UPLOAD_FOLDER = './temp'
 app.config['SESSION_TYPE'] = 'memcached'
 app.config['SECRET_KEY'] = 'SECRET KEY'
+
 
 cors = CORS(app)
 
@@ -25,9 +30,9 @@ def userAutenticate():
       network = request.args.get('network')
 
       if network == 'instagram':
-            return userAutenticate(user, password)
+            return userAutenticateInstagram(user, password)
       else:
-            return userAutenticate("teste", "teste1234")
+            return userAutenticateInstagram("teste", "teste1234")
 
 
 @app.route("/auth", methods=["GET"])
@@ -88,7 +93,7 @@ def upload_file():
                   filename = alterFilename(idLogin, date, time, networkActive, secure_filename(file.filename))
                   saveScheduleFiles(id_queue, filename)
 
-            return redirect('https://frontendposthora.z13.web.core.windows.net/#/Homepage')
+            return redirect('http://187.34.201.58:5000/#/Homepage')
 
 
 @app.route("/auth/social_network_save", methods=["GET"])
@@ -158,5 +163,5 @@ def running():
       return 'API is Running'
 
 if __name__ == "__main__":
-      app.run(debug=False)
+      app.run (host = '192.168.15.4', port="3000", debug=False)
 

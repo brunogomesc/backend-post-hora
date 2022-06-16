@@ -1,0 +1,1156 @@
+1650324427142	geckodriver	INFO	Listening on 127.0.0.1:55709
+1650324427257	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "51501" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilef3w3Ic"
+*** You are running in headless mode.
+1650324429611	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilef3w3Ic/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51501/devtools/browser/9c476267-dd78-4620-9fa3-28a9725d410b
+1650324440729	Marionette	INFO	Listening on port 36991
+Read port: 36991
+1650324440985	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1650324471930	Marionette	INFO	Stopped listening on port 36991
+1650327307412	geckodriver	INFO	Listening on 127.0.0.1:33423
+1650327308121	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "54761" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile2EEuUX"
+*** You are running in headless mode.
+1650327308901	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile2EEuUX/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54761/devtools/browser/b8bbfb63-9e6a-4153-b229-84ca4e184bb4
+1650327314278	Marionette	INFO	Listening on port 37879
+Read port: 37879
+1650327314370	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1650327417814	Marionette	INFO	Stopped listening on port 37879
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1650553773740	geckodriver	INFO	Listening on 127.0.0.1:59809
+1650553776774	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "35585" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilelUAkNy"
+*** You are running in headless mode.
+1650553784778	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilelUAkNy/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:35585/devtools/browser/6b7407c0-e56f-49d6-85ac-95c23a897a78
+1650553802782	Marionette	INFO	Listening on port 40033
+Read port: 40033
+1650553803630	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1650553907974	Marionette	INFO	Stopped listening on port 40033
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DestroyBrowsingContextGroup) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PWebSocket::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1654125761207	geckodriver	INFO	Listening on 127.0.0.1:36779
+1654125763201	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "37779" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilewCMFhn"
+*** You are running in headless mode.
+1654125768808	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilewCMFhn/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:37779/devtools/browser/5061d356-988a-4d44-b5b5-34a6d93f56b9
+1654125783760	Marionette	INFO	Listening on port 41859
+Read port: 41859
+1654125784136	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3itBX4/yV/l/en_US/ELk19kgHKfe.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1654126181474	geckodriver	INFO	Listening on 127.0.0.1:50265
+1654126184384	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "52465" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileI1wdw7"
+*** You are running in headless mode.
+1654126191238	Marionette	INFO	Marionette enabled
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileI1wdw7/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52465/devtools/browser/ea25e072-1af0-4753-be79-445e73f1d316
+1654126212778	Marionette	INFO	Listening on port 40971
+Read port: 40971
+1654126213268	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3itBX4/yV/l/en_US/ELk19kgHKfe.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1654126870355	geckodriver	INFO	Listening on 127.0.0.1:60937
+1654126871897	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "45163" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileGWfchN"
+*** You are running in headless mode.
+1654126877221	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileGWfchN/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:45163/devtools/browser/84cd87ce-a18a-41ca-a9cb-cd403093cf17
+1654126886236	Marionette	INFO	Listening on port 40165
+Read port: 40165
+1654126886359	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3itBX4/yV/l/en_US/ELk19kgHKfe.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1654128074420	geckodriver	INFO	Listening on 127.0.0.1:38571
+1654128074972	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "37579" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileVghrkH"
+*** You are running in headless mode.
+1654128076074	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileVghrkH/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:37579/devtools/browser/1c7c36d0-5d12-4e98-86e4-5fd9b86ce85b
+1654128082210	Marionette	INFO	Listening on port 43613
+Read port: 43613
+1654128082608	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3itBX4/yV/l/en_US/ELk19kgHKfe.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1654303431990	geckodriver	INFO	Listening on 127.0.0.1:48579
+1654303437564	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "58529" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileIZuC10"
+*** You are running in headless mode.
+1654303448103	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileIZuC10/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58529/devtools/browser/7de6b2c8-904a-4146-bd36-25ef9e1168ae
+1654303463053	Marionette	INFO	Listening on port 40439
+Read port: 40439
+1654303463309	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1654303475750	geckodriver	INFO	Listening on 127.0.0.1:56939
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+1654303479570	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "33821" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile2695cy"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+*** You are running in headless mode.
+1654303488177	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile2695cy/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3itBX4/yV/l/en_US/ELk19kgHKfe.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+DevTools listening on ws://localhost:33821/devtools/browser/14926178-6f6c-4662-b50e-e1d874ef594e
+1654303531449	Marionette	INFO	Listening on port 39261
+Read port: 39261
+Read port: 39261
+1654303535569	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+1654303607951	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3itBX4/yV/l/en_US/ELk19kgHKfe.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1654885882096	geckodriver	INFO	Listening on 127.0.0.1:53731
+1654885882858	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "44601" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile5osAkX"
+*** You are running in headless mode.
+1654885883901	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:44601
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile5osAkX/search.json.mozlz4", (void 0)))
+1654885892806	Marionette	INFO	Listening on port 33187
+Read port: 33187
+1654885893424	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:44601/devtools/browser/d8343a3b-06e5-45ea-8f14-55564b5e6121
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3itBX4/yV/l/en_US/ELk19kgHKfe.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1654886144550	geckodriver	INFO	Listening on 127.0.0.1:51715
+1654886145704	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "33441" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile8TWWSc"
+*** You are running in headless mode.
+1654886150050	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:33441
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile8TWWSc/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 765))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1654886167778	Marionette	INFO	Listening on port 44857
+Read port: 44857
+1654886168002	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:33441/devtools/browser/545666e7-fba8-4ac1-94c7-2b960cfd398b
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3itBX4/yV/l/en_US/ELk19kgHKfe.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1654886238416	geckodriver	INFO	Listening on 127.0.0.1:35441
+1654886241623	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "40017" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofiledOKXee"
+*** You are running in headless mode.
+1654886246966	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:40017
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiledOKXee/search.json.mozlz4", (void 0)))
+1654886257619	Marionette	INFO	Listening on port 46835
+Read port: 46835
+1654886257731	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:40017/devtools/browser/7913292a-9778-425c-a1a9-f73e61b6e2c7
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3itBX4/yV/l/en_US/ELk19kgHKfe.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1654886529444	geckodriver	INFO	Listening on 127.0.0.1:51057
+1654886532500	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "45563" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileD5F1Bq"
+*** You are running in headless mode.
+1654886539314	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:45563
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileD5F1Bq/search.json.mozlz4", (void 0)))
+1654886557403	Marionette	INFO	Listening on port 44375
+Read port: 44375
+1654886558103	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:45563/devtools/browser/d79f2abd-4d83-45d9-bd25-c96ef50ca6f6
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3itBX4/yV/l/en_US/ELk19kgHKfe.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1654886658202	geckodriver	INFO	Listening on 127.0.0.1:51575
+1654886660551	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "53543" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileXQRsln"
+*** You are running in headless mode.
+1654886664386	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:53543
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileXQRsln/search.json.mozlz4", (void 0)))
+1654886671659	Marionette	INFO	Listening on port 34485
+Read port: 34485
+1654886671723	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:53543/devtools/browser/693ec72d-585f-47cd-a061-2b24d1b19aa7
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3itBX4/yV/l/en_US/ELk19kgHKfe.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1654886948604	geckodriver	INFO	Listening on 127.0.0.1:52291
+1654886948775	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "44355" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile1wJXZf"
+*** You are running in headless mode.
+1654886949670	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:44355
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile1wJXZf/search.json.mozlz4", (void 0)))
+1654886956345	Marionette	INFO	Listening on port 34681
+Read port: 34681
+DevTools listening on ws://localhost:44355/devtools/browser/19545e67-a3b9-4a3c-8c7b-e7fb3fb85d3d
+1654886956435	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3itBX4/yV/l/en_US/ELk19kgHKfe.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1654887501011	geckodriver	INFO	Listening on 127.0.0.1:35529
+1654887501237	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "43649" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile4vsqek"
+*** You are running in headless mode.
+1654887502221	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:43649
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile4vsqek/search.json.mozlz4", (void 0)))
+1654887507447	Marionette	INFO	Listening on port 32869
+Read port: 32869
+1654887507508	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:43649/devtools/browser/6b118c45-39f5-4469-bdb4-750ad8875564
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3itBX4/yV/l/en_US/ELk19kgHKfe.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1654887945146	geckodriver	INFO	Listening on 127.0.0.1:58563
+1654887945286	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "39749" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileW2Mm6y"
+*** You are running in headless mode.
+1654887946335	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:39749
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileW2Mm6y/search.json.mozlz4", (void 0)))
+1654887951519	Marionette	INFO	Listening on port 40279
+DevTools listening on ws://localhost:39749/devtools/browser/137dd2b9-0861-4422-af53-fd2b17f8c2b1
+Read port: 40279
+1654887951650	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3itBX4/yV/l/en_US/ELk19kgHKfe.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1654888059436	geckodriver	INFO	Listening on 127.0.0.1:44671
+1654888059610	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "40097" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileVzSNHF"
+*** You are running in headless mode.
+1654888060477	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:40097
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileVzSNHF/search.json.mozlz4", (void 0)))
+1654888066514	Marionette	INFO	Listening on port 44061
+Read port: 44061
+1654888066560	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:40097/devtools/browser/7fcdaccb-3a45-40a1-873c-f03eba17c1b8
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3itBX4/yV/l/en_US/ELk19kgHKfe.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1654889886036	geckodriver	INFO	Listening on 127.0.0.1:33211
+1654889888207	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "41159" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofiletFmXwx"
+*** You are running in headless mode.
+1654889891151	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:41159
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiletFmXwx/search.json.mozlz4", (void 0)))
+1654889903469	Marionette	INFO	Listening on port 33427
+Read port: 33427
+1654889903897	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:41159/devtools/browser/c61ce113-e822-4e28-a95e-4498422c89ee
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1654889924195	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iNB84/yg/l/en_US/Vz3piZ2x-J4.js?_nc_x=Ij3Wp8lg5Kz, line 957: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iNB84/yg/l/en_US/Vz3piZ2x-J4.js?_nc_x=Ij3Wp8lg5Kz, line 1387: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iNB84/yg/l/en_US/Vz3piZ2x-J4.js?_nc_x=Ij3Wp8lg5Kz, line 1387: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iNB84/yg/l/en_US/Vz3piZ2x-J4.js?_nc_x=Ij3Wp8lg5Kz, line 1387: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3itBX4/yV/l/en_US/ELk19kgHKfe.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+1654890125374	geckodriver	INFO	Listening on 127.0.0.1:50831
+1654890127946	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "43257" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofiledUbNVo"
+*** You are running in headless mode.
+1654890131956	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:43257
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiledUbNVo/search.json.mozlz4", (void 0)))
+1654890141247	Marionette	INFO	Listening on port 35463
+Read port: 35463
+1654890141414	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:43257/devtools/browser/a8d73efb-93b7-43c6-b776-40f7c9aac0bb
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1654890161747	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iNB84/yg/l/en_US/Vz3piZ2x-J4.js?_nc_x=Ij3Wp8lg5Kz, line 957: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iNB84/yg/l/en_US/Vz3piZ2x-J4.js?_nc_x=Ij3Wp8lg5Kz, line 1387: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iNB84/yg/l/en_US/Vz3piZ2x-J4.js?_nc_x=Ij3Wp8lg5Kz, line 1387: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iNB84/yg/l/en_US/Vz3piZ2x-J4.js?_nc_x=Ij3Wp8lg5Kz, line 1387: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3itBX4/yV/l/en_US/ELk19kgHKfe.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1654890255013	geckodriver	INFO	Listening on 127.0.0.1:44467
+1654890256446	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "53523" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilev2PxyW"
+*** You are running in headless mode.
+1654890258075	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:53523
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilev2PxyW/search.json.mozlz4", (void 0)))
+1654890263412	Marionette	INFO	Listening on port 43757
+Read port: 43757
+1654890263498	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:53523/devtools/browser/05a469d2-f9d2-4f2c-8736-cee3099282c2
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1654890283077	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iNB84/yg/l/en_US/Vz3piZ2x-J4.js?_nc_x=Ij3Wp8lg5Kz, line 957: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iNB84/yg/l/en_US/Vz3piZ2x-J4.js?_nc_x=Ij3Wp8lg5Kz, line 1387: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iNB84/yg/l/en_US/Vz3piZ2x-J4.js?_nc_x=Ij3Wp8lg5Kz, line 1387: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iNB84/yg/l/en_US/Vz3piZ2x-J4.js?_nc_x=Ij3Wp8lg5Kz, line 1387: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3itBX4/yV/l/en_US/ELk19kgHKfe.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1654892765796	geckodriver	INFO	Listening on 127.0.0.1:49399
+1654892768498	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "53507" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileJo9Gmm"
+*** You are running in headless mode.
+1654892773700	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:53507
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileJo9Gmm/search.json.mozlz4", (void 0)))
+1654892785195	Marionette	INFO	Listening on port 40909
+Read port: 40909
+1654892785606	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:53507/devtools/browser/2965a90b-0f08-407d-b9d8-f6869b3cf436
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1654892806922	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iNB84/yg/l/en_US/Vz3piZ2x-J4.js?_nc_x=Ij3Wp8lg5Kz, line 957: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iNB84/yg/l/en_US/Vz3piZ2x-J4.js?_nc_x=Ij3Wp8lg5Kz, line 1387: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iNB84/yg/l/en_US/Vz3piZ2x-J4.js?_nc_x=Ij3Wp8lg5Kz, line 1387: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iNB84/yg/l/en_US/Vz3piZ2x-J4.js?_nc_x=Ij3Wp8lg5Kz, line 1387: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3itBX4/yV/l/en_US/ELk19kgHKfe.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1654892970020	geckodriver	INFO	Listening on 127.0.0.1:33195
+1654892970628	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "34089" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilemfilT4"
+*** You are running in headless mode.
+1654892971646	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:34089
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilemfilT4/search.json.mozlz4", (void 0)))
+1654892976768	Marionette	INFO	Listening on port 32951
+DevTools listening on ws://localhost:34089/devtools/browser/25ebfdd8-4cf2-48ec-8926-04fda827169b
+Read port: 32951
+1654892976881	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1654892996662	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iNB84/yg/l/en_US/Vz3piZ2x-J4.js?_nc_x=Ij3Wp8lg5Kz, line 957: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iNB84/yg/l/en_US/Vz3piZ2x-J4.js?_nc_x=Ij3Wp8lg5Kz, line 1387: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iNB84/yg/l/en_US/Vz3piZ2x-J4.js?_nc_x=Ij3Wp8lg5Kz, line 1387: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iNB84/yg/l/en_US/Vz3piZ2x-J4.js?_nc_x=Ij3Wp8lg5Kz, line 1387: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3itBX4/yV/l/en_US/ELk19kgHKfe.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1654893649433	geckodriver	INFO	Listening on 127.0.0.1:44397
+1654893650951	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "34527" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile39yYm9"
+*** You are running in headless mode.
+1654893652466	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:34527
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile39yYm9/search.json.mozlz4", (void 0)))
+1654893659387	Marionette	INFO	Listening on port 43047
+DevTools listening on ws://localhost:34527/devtools/browser/9b856d43-24bd-4c70-9b24-31a555ddad79
+Read port: 43047
+1654893659509	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+1654893684045	Marionette	INFO	Stopped listening on port 43047
+1654893751389	geckodriver	INFO	Listening on 127.0.0.1:46745
+1654893751534	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "44459" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileogGa57"
+*** You are running in headless mode.
+1654893752427	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:44459
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileogGa57/search.json.mozlz4", (void 0)))
+1654893757991	Marionette	INFO	Listening on port 39427
+Read port: 39427
+1654893758093	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:44459/devtools/browser/e5b1b93b-1faf-4362-a092-327fb2da1a14
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+1654893780760	Marionette	INFO	Stopped listening on port 39427
+1654894276012	geckodriver	INFO	Listening on 127.0.0.1:48871
+1654894276608	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "41351" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileXngEVI"
+*** You are running in headless mode.
+1654894277479	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:41351
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileXngEVI/search.json.mozlz4", (void 0)))
+1654894283545	Marionette	INFO	Listening on port 38497
+DevTools listening on ws://localhost:41351/devtools/browser/11aa5623-b5df-42ca-af36-769522264af9
+Read port: 38497
+1654894283668	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iNB84/yg/l/en_US/Vz3piZ2x-J4.js?_nc_x=Ij3Wp8lg5Kz, line 957: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iNB84/yg/l/en_US/Vz3piZ2x-J4.js?_nc_x=Ij3Wp8lg5Kz, line 1387: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iNB84/yg/l/en_US/Vz3piZ2x-J4.js?_nc_x=Ij3Wp8lg5Kz, line 1387: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iNB84/yg/l/en_US/Vz3piZ2x-J4.js?_nc_x=Ij3Wp8lg5Kz, line 1387: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3itBX4/yV/l/en_US/ELk19kgHKfe.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1654894570067	geckodriver	INFO	Listening on 127.0.0.1:59453
+1654894570238	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "43567" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile8dTl2x"
+*** You are running in headless mode.
+1654894571086	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:43567
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile8dTl2x/search.json.mozlz4", (void 0)))
+1654894576599	Marionette	INFO	Listening on port 37951
+Read port: 37951
+1654894576698	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:43567/devtools/browser/472a36dc-7b0f-46f3-b770-d9118ba7f799
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iNB84/yg/l/en_US/Vz3piZ2x-J4.js?_nc_x=Ij3Wp8lg5Kz, line 957: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iNB84/yg/l/en_US/Vz3piZ2x-J4.js?_nc_x=Ij3Wp8lg5Kz, line 1387: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iNB84/yg/l/en_US/Vz3piZ2x-J4.js?_nc_x=Ij3Wp8lg5Kz, line 1387: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iNB84/yg/l/en_US/Vz3piZ2x-J4.js?_nc_x=Ij3Wp8lg5Kz, line 1387: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3itBX4/yV/l/en_US/ELk19kgHKfe.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1654895190060	geckodriver	INFO	Listening on 127.0.0.1:58379
+1654895190691	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "34177" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileBvExi6"
+*** You are running in headless mode.
+1654895191610	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:34177
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileBvExi6/search.json.mozlz4", (void 0)))
+1654895197953	Marionette	INFO	Listening on port 39465
+Read port: 39465
+1654895198109	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:34177/devtools/browser/7f551675-cb80-43f7-af09-dd240ae641dc
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+1654895223185	Marionette	INFO	Stopped listening on port 39465
+1654895397597	geckodriver	INFO	Listening on 127.0.0.1:52933
+1654895397743	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "33425" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilemzRkXm"
+*** You are running in headless mode.
+1654895398843	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:33425
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilemzRkXm/search.json.mozlz4", (void 0)))
+1654895405049	Marionette	INFO	Listening on port 43939
+Read port: 43939
+DevTools listening on ws://localhost:33425/devtools/browser/4a1c895b-8720-41c1-a082-ed9e5328a275
+1654895405604	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1654895423725	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iNB84/yg/l/en_US/Vz3piZ2x-J4.js?_nc_x=Ij3Wp8lg5Kz, line 957: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iNB84/yg/l/en_US/Vz3piZ2x-J4.js?_nc_x=Ij3Wp8lg5Kz, line 1387: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iNB84/yg/l/en_US/Vz3piZ2x-J4.js?_nc_x=Ij3Wp8lg5Kz, line 1387: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iNB84/yg/l/en_US/Vz3piZ2x-J4.js?_nc_x=Ij3Wp8lg5Kz, line 1387: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3itBX4/yV/l/en_US/ELk19kgHKfe.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1654904049756	geckodriver	INFO	Listening on 127.0.0.1:32961
+1654904051347	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "43583" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileIJVzdL"
+*** You are running in headless mode.
+1654904057429	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:43583
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileIJVzdL/search.json.mozlz4", (void 0)))
+1654904069556	Marionette	INFO	Listening on port 45715
+Read port: 45715
+1654904069852	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:43583/devtools/browser/34d697d0-c5c4-40f6-b1e5-7594bd4a7ac1
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iZcZ4/yd/l/en_US/xef-HRuu1eu.js?_nc_x=Ij3Wp8lg5Kz, line 949: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iZcZ4/yd/l/en_US/xef-HRuu1eu.js?_nc_x=Ij3Wp8lg5Kz, line 1380: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iZcZ4/yd/l/en_US/xef-HRuu1eu.js?_nc_x=Ij3Wp8lg5Kz, line 1380: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iZcZ4/yd/l/en_US/xef-HRuu1eu.js?_nc_x=Ij3Wp8lg5Kz, line 1380: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3itBX4/yV/l/en_US/ELk19kgHKfe.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1654904236808	geckodriver	INFO	Listening on 127.0.0.1:55341
+1654904236932	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "38701" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilefswJJS"
+*** You are running in headless mode.
+1654904237727	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:38701
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilefswJJS/search.json.mozlz4", (void 0)))
+1654904245126	Marionette	INFO	Listening on port 42747
+Read port: 42747
+1654904245250	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:38701/devtools/browser/21474466-7a20-49ee-8b6c-392193ad04f1
+1654904247299	geckodriver	INFO	Listening on 127.0.0.1:52721
+1654904247464	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "37007" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile3810Sv"
+*** You are running in headless mode.
+1654904248958	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:37007
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile3810Sv/search.json.mozlz4", (void 0)))
+1654904255533	Marionette	INFO	Listening on port 39069
+DevTools listening on ws://localhost:37007/devtools/browser/6da1e0c6-9105-4e74-8357-851395b700f9
+Read port: 39069
+1654904256111	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iZcZ4/yd/l/en_US/xef-HRuu1eu.js?_nc_x=Ij3Wp8lg5Kz, line 949: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iZcZ4/yd/l/en_US/xef-HRuu1eu.js?_nc_x=Ij3Wp8lg5Kz, line 1380: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iZcZ4/yd/l/en_US/xef-HRuu1eu.js?_nc_x=Ij3Wp8lg5Kz, line 1380: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iZcZ4/yd/l/en_US/xef-HRuu1eu.js?_nc_x=Ij3Wp8lg5Kz, line 1380: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3itBX4/yV/l/en_US/ELk19kgHKfe.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iZcZ4/yd/l/en_US/xef-HRuu1eu.js?_nc_x=Ij3Wp8lg5Kz, line 949: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iZcZ4/yd/l/en_US/xef-HRuu1eu.js?_nc_x=Ij3Wp8lg5Kz, line 1380: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iZcZ4/yd/l/en_US/xef-HRuu1eu.js?_nc_x=Ij3Wp8lg5Kz, line 1380: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iZcZ4/yd/l/en_US/xef-HRuu1eu.js?_nc_x=Ij3Wp8lg5Kz, line 1380: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3itBX4/yV/l/en_US/ELk19kgHKfe.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1654904357824	geckodriver	INFO	Listening on 127.0.0.1:51949
+1654904358805	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "55303" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileDMDOBO"
+*** You are running in headless mode.
+1654904360114	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:55303
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileDMDOBO/search.json.mozlz4", (void 0)))
+1654904366468	Marionette	INFO	Listening on port 45089
+Read port: 45089
+DevTools listening on ws://localhost:55303/devtools/browser/5bfbfd29-6790-494f-bbb5-0f6b3d6a55d3
+1654904366564	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iZcZ4/yd/l/en_US/xef-HRuu1eu.js?_nc_x=Ij3Wp8lg5Kz, line 949: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iZcZ4/yd/l/en_US/xef-HRuu1eu.js?_nc_x=Ij3Wp8lg5Kz, line 1380: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iZcZ4/yd/l/en_US/xef-HRuu1eu.js?_nc_x=Ij3Wp8lg5Kz, line 1380: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iZcZ4/yd/l/en_US/xef-HRuu1eu.js?_nc_x=Ij3Wp8lg5Kz, line 1380: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3itBX4/yV/l/en_US/ELk19kgHKfe.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1654904514693	geckodriver	INFO	Listening on 127.0.0.1:33475
+1654904514795	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "43709" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilep3luAS"
+*** You are running in headless mode.
+1654904515536	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:43709
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilep3luAS/search.json.mozlz4", (void 0)))
+1654904521902	Marionette	INFO	Listening on port 40017
+Read port: 40017
+1654904521967	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:43709/devtools/browser/65f59209-f3ae-4312-a700-15995b08e8a2
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iZcZ4/yd/l/en_US/xef-HRuu1eu.js?_nc_x=Ij3Wp8lg5Kz, line 949: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iZcZ4/yd/l/en_US/xef-HRuu1eu.js?_nc_x=Ij3Wp8lg5Kz, line 1380: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iZcZ4/yd/l/en_US/xef-HRuu1eu.js?_nc_x=Ij3Wp8lg5Kz, line 1380: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iZcZ4/yd/l/en_US/xef-HRuu1eu.js?_nc_x=Ij3Wp8lg5Kz, line 1380: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3itBX4/yV/l/en_US/ELk19kgHKfe.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1654956241174	geckodriver	INFO	Listening on 127.0.0.1:35995
+1654956242311	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "35671" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileGAWbi0"
+*** You are running in headless mode.
+1654956247278	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:35671
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileGAWbi0/search.json.mozlz4", (void 0)))
+1654956262284	Marionette	INFO	Listening on port 33727
+Read port: 33727
+1654956262637	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:35671/devtools/browser/0943fb6e-662b-4277-a42e-691b441702e3
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ijWh4/y8/l/en_US/ml0ljUcRQ2s.js?_nc_x=Ij3Wp8lg5Kz, line 949: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ijWh4/y8/l/en_US/ml0ljUcRQ2s.js?_nc_x=Ij3Wp8lg5Kz, line 1380: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ijWh4/y8/l/en_US/ml0ljUcRQ2s.js?_nc_x=Ij3Wp8lg5Kz, line 1380: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ijWh4/y8/l/en_US/ml0ljUcRQ2s.js?_nc_x=Ij3Wp8lg5Kz, line 1380: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3itBX4/yV/l/en_US/ELk19kgHKfe.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+
+###!!! [Parent][PContentParent] Error: RunMessage(msgname=PContent::Msg_FOGData) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: RunMessage(msgname=PContent::Msg_AccumulateChildKeyedHistograms) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: RunMessage(msgname=PContent::Msg_UpdateChildScalars) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: RunMessage(msgname=PContent::Msg_UpdateChildKeyedScalars) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: RunMessage(msgname=PContent::Msg_RecordDiscardedData) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: RunMessage(msgname=PContent::Msg_AccumulateChildKeyedHistograms) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: RunMessage(msgname=PContent::Msg_RecordDiscardedData) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: RunMessage(msgname=PContent::Msg_ShutdownProfile) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: RunMessage(msgname=PContent::Msg_FinishShutdown) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"SessionStore: flushing all windows","state":{"total":1,"current":0},"filename":"resource:///modules/sessionstore/SessionStore.jsm","lineNumber":2110,"stack":["resource:///modules/sessionstore/SessionStore.jsm:ssi_onQuitApplicationGranted:2110","resource:///modules/sessionstore/SessionStore.jsm:ssi_observe:1023","resource:///modules/ContentCrashHandlers.jsm:observe:177"]}] Barrier: quit-application-granted
+1655136954183	Marionette	INFO	Stopped listening on port 33727
+
+###!!! [Parent][PBackgroundParent] Error: Send(msgname=PVsync::Msg_Notify) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"ContentParent: id=7f2db35da800","state":{"remoteTypePrefix":"web"},"filename":"/builds/worker/checkouts/gecko/dom/ipc/ContentParent.cpp","lineNumber":3638,"stack":["resource://gre/modules/nsAsyncShutdown.jsm:addBlocker:162","chrome://global/content/elements/browser-custom-element.js:get loadContext:386","chrome://global/content/elements/browser-custom-element.js:construct:984","chrome://global/content/elements/browser-custom-element.js:connectedCallback:324","chrome://browser/content/tabbrowser.js:_setupInitialBrowserAndTab:417","chrome://browser/content/tabbrowser.js:init:50","chrome://browser/content/browser.js:onDOMContentLoaded:1708"]}] Barrier: profile-before-change
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1655139980875	geckodriver	INFO	Listening on 127.0.0.1:60947
+1655139983670	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "46501" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile14Tw2S"
+*** You are running in headless mode.
+1655139986437	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:46501
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile14Tw2S/search.json.mozlz4", (void 0)))
+1655140007591	Marionette	INFO	Listening on port 37737
+Read port: 37737
+1655140007697	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:46501/devtools/browser/e0f282b3-2c71-4614-a1ad-a5a759a21c40
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iNkn4/yv/l/en_US/ODje2xQc3d4.js?_nc_x=Ij3Wp8lg5Kz, line 957: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iNkn4/yv/l/en_US/ODje2xQc3d4.js?_nc_x=Ij3Wp8lg5Kz, line 1388: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iNkn4/yv/l/en_US/ODje2xQc3d4.js?_nc_x=Ij3Wp8lg5Kz, line 1388: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iNkn4/yv/l/en_US/ODje2xQc3d4.js?_nc_x=Ij3Wp8lg5Kz, line 1388: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3itBX4/yV/l/en_US/ELk19kgHKfe.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1655140431753	geckodriver	INFO	Listening on 127.0.0.1:43843
+1655140432350	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "49211" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilex53nQO"
+*** You are running in headless mode.
+1655140433823	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:49211
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilex53nQO/search.json.mozlz4", (void 0)))
+1655140439411	Marionette	INFO	Listening on port 41375
+Read port: 41375
+DevTools listening on ws://localhost:49211/devtools/browser/b299c21d-fd53-429a-9b77-f9fe2acf4ada
+1655140439504	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iNkn4/yv/l/en_US/ODje2xQc3d4.js?_nc_x=Ij3Wp8lg5Kz, line 957: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iNkn4/yv/l/en_US/ODje2xQc3d4.js?_nc_x=Ij3Wp8lg5Kz, line 1388: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iNkn4/yv/l/en_US/ODje2xQc3d4.js?_nc_x=Ij3Wp8lg5Kz, line 1388: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iNkn4/yv/l/en_US/ODje2xQc3d4.js?_nc_x=Ij3Wp8lg5Kz, line 1388: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3itBX4/yV/l/en_US/ELk19kgHKfe.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1655151203612	geckodriver	INFO	Listening on 127.0.0.1:52799
+1655151206430	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "41877" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileamgPc1"
+*** You are running in headless mode.
+1655151211585	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:41877
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileamgPc1/search.json.mozlz4", (void 0)))
+1655151227949	Marionette	INFO	Listening on port 41295
+Read port: 41295
+1655151228284	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:41877/devtools/browser/2f15583a-49d7-48d9-af3b-dadb74164063
+Exiting due to channel error.
+Exiting due to channel error.
+1655153095184	geckodriver	INFO	Listening on 127.0.0.1:56917
+1655153095744	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "56935" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile49X8OC"
+*** You are running in headless mode.
+1655153100512	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:56935
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile49X8OC/search.json.mozlz4", (void 0)))
+1655153117021	Marionette	INFO	Listening on port 37207
+Read port: 37207
+1655153117268	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:56935/devtools/browser/c22751cb-d405-430d-bf9e-74404da054cb
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1655153307096	geckodriver	INFO	Listening on 127.0.0.1:47603
+1655153308100	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "45199" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileGwljry"
+*** You are running in headless mode.
+1655153310209	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:45199
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileGwljry/search.json.mozlz4", (void 0)))
+1655153315981	Marionette	INFO	Listening on port 41419
+Read port: 41419
+1655153316058	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:45199/devtools/browser/91210a81-b2e4-4941-9a51-0b34ac5ac6b1
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1655153336672	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iNkn4/yv/l/en_US/ODje2xQc3d4.js?_nc_x=Ij3Wp8lg5Kz, line 957: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iNkn4/yv/l/en_US/ODje2xQc3d4.js?_nc_x=Ij3Wp8lg5Kz, line 1388: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iNkn4/yv/l/en_US/ODje2xQc3d4.js?_nc_x=Ij3Wp8lg5Kz, line 1388: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iNkn4/yv/l/en_US/ODje2xQc3d4.js?_nc_x=Ij3Wp8lg5Kz, line 1388: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3itBX4/yV/l/en_US/ELk19kgHKfe.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1655157828171	geckodriver	INFO	Listening on 127.0.0.1:54663
+1655157828776	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "58613" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileENfmNn"
+*** You are running in headless mode.
+1655157829546	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:58613
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileENfmNn/search.json.mozlz4", (void 0)))
+1655157834914	Marionette	INFO	Listening on port 37837
+DevTools listening on ws://localhost:58613/devtools/browser/d85e32fd-6ba7-480f-85c4-4c90a304d952
+Read port: 37837
+1655157835022	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1655157855193	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ijWh4/yP/l/en_US/AYLwunEGqqS.js?_nc_x=Ij3Wp8lg5Kz, line 949: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ijWh4/yP/l/en_US/AYLwunEGqqS.js?_nc_x=Ij3Wp8lg5Kz, line 1377: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ijWh4/yP/l/en_US/AYLwunEGqqS.js?_nc_x=Ij3Wp8lg5Kz, line 1377: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ijWh4/yP/l/en_US/AYLwunEGqqS.js?_nc_x=Ij3Wp8lg5Kz, line 1377: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3itBX4/yV/l/en_US/ELk19kgHKfe.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1655159381562	geckodriver	INFO	Listening on 127.0.0.1:60433
+1655159382964	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "51539" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileqiNDN6"
+*** You are running in headless mode.
+1655159385314	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:51539
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileqiNDN6/search.json.mozlz4", (void 0)))
+1655159390347	Marionette	INFO	Listening on port 45809
+Read port: 45809
+1655159390416	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:51539/devtools/browser/0e5a479a-32c6-4262-b28e-8a4660c799d8
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1655159410437	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ijWh4/yP/l/en_US/AYLwunEGqqS.js?_nc_x=Ij3Wp8lg5Kz, line 949: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ijWh4/yP/l/en_US/AYLwunEGqqS.js?_nc_x=Ij3Wp8lg5Kz, line 1377: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ijWh4/yP/l/en_US/AYLwunEGqqS.js?_nc_x=Ij3Wp8lg5Kz, line 1377: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ijWh4/yP/l/en_US/AYLwunEGqqS.js?_nc_x=Ij3Wp8lg5Kz, line 1377: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3itBX4/yV/l/en_US/ELk19kgHKfe.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1655164109630	geckodriver	INFO	Listening on 127.0.0.1:59229
+1655164113415	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "45441" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilemyRiNY"
+*** You are running in headless mode.
+1655164119392	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:45441
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilemyRiNY/search.json.mozlz4", (void 0)))
+1655164136696	Marionette	INFO	Listening on port 33109
+Read port: 33109
+1655164137080	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:45441/devtools/browser/f81e08d9-268e-4616-819a-53b88d9c6fdd
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1655164159014	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ijWh4/yP/l/en_US/AYLwunEGqqS.js?_nc_x=Ij3Wp8lg5Kz, line 949: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ijWh4/yP/l/en_US/AYLwunEGqqS.js?_nc_x=Ij3Wp8lg5Kz, line 1377: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ijWh4/yP/l/en_US/AYLwunEGqqS.js?_nc_x=Ij3Wp8lg5Kz, line 1377: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ijWh4/yP/l/en_US/AYLwunEGqqS.js?_nc_x=Ij3Wp8lg5Kz, line 1377: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3itBX4/yV/l/en_US/ELk19kgHKfe.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+1655164661483	geckodriver	INFO	Listening on 127.0.0.1:53599
+1655164664756	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "49871" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilenzu8N6"
+*** You are running in headless mode.
+1655164670022	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:49871
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilenzu8N6/search.json.mozlz4", (void 0)))
+1655164683262	Marionette	INFO	Listening on port 44397
+Read port: 44397
+1655164683557	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:49871/devtools/browser/fedaa49b-68e5-4604-a86a-73df1065d125
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1655164703877	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ijWh4/yP/l/en_US/AYLwunEGqqS.js?_nc_x=Ij3Wp8lg5Kz, line 949: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ijWh4/yP/l/en_US/AYLwunEGqqS.js?_nc_x=Ij3Wp8lg5Kz, line 1377: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ijWh4/yP/l/en_US/AYLwunEGqqS.js?_nc_x=Ij3Wp8lg5Kz, line 1377: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ijWh4/yP/l/en_US/AYLwunEGqqS.js?_nc_x=Ij3Wp8lg5Kz, line 1377: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3itBX4/yV/l/en_US/ELk19kgHKfe.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1655164847093	geckodriver	INFO	Listening on 127.0.0.1:38351
+1655164848125	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "40443" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileu78lUt"
+*** You are running in headless mode.
+1655164849514	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:40443
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileu78lUt/search.json.mozlz4", (void 0)))
+1655164855315	Marionette	INFO	Listening on port 44383
+Read port: 44383
+DevTools listening on ws://localhost:40443/devtools/browser/40125f95-cb17-4a86-87f0-b02e0ec083d5
+1655164855375	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1655164875783	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ijWh4/yP/l/en_US/AYLwunEGqqS.js?_nc_x=Ij3Wp8lg5Kz, line 949: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ijWh4/yP/l/en_US/AYLwunEGqqS.js?_nc_x=Ij3Wp8lg5Kz, line 1377: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ijWh4/yP/l/en_US/AYLwunEGqqS.js?_nc_x=Ij3Wp8lg5Kz, line 1377: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ijWh4/yP/l/en_US/AYLwunEGqqS.js?_nc_x=Ij3Wp8lg5Kz, line 1377: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3itBX4/yV/l/en_US/ELk19kgHKfe.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1655166242957	geckodriver	INFO	Listening on 127.0.0.1:37851
+1655166245401	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "55743" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile7iV3qQ"
+*** You are running in headless mode.
+1655166249743	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:55743
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile7iV3qQ/search.json.mozlz4", (void 0)))
+1655166262790	Marionette	INFO	Listening on port 44891
+Read port: 44891
+1655166263079	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:55743/devtools/browser/4126678a-1880-45ce-9533-8c3335b8f922
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1655166284760	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ijWh4/yP/l/en_US/AYLwunEGqqS.js?_nc_x=Ij3Wp8lg5Kz, line 949: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ijWh4/yP/l/en_US/AYLwunEGqqS.js?_nc_x=Ij3Wp8lg5Kz, line 1377: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ijWh4/yP/l/en_US/AYLwunEGqqS.js?_nc_x=Ij3Wp8lg5Kz, line 1377: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ijWh4/yP/l/en_US/AYLwunEGqqS.js?_nc_x=Ij3Wp8lg5Kz, line 1377: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3itBX4/yV/l/en_US/ELk19kgHKfe.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1655204565936	geckodriver	INFO	Listening on 127.0.0.1:49951
+1655204568432	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "57219" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilexPjDAf"
+*** You are running in headless mode.
+1655204573930	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:57219
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilexPjDAf/search.json.mozlz4", (void 0)))
+1655204591989	Marionette	INFO	Listening on port 36775
+Read port: 36775
+1655204592242	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:57219/devtools/browser/4eadbbc7-e757-40d4-b0e9-097b10a08aaa
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ijWh4/yX/l/en_US/0THwjINDuU0.js?_nc_x=Ij3Wp8lg5Kz, line 949: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ijWh4/yX/l/en_US/0THwjINDuU0.js?_nc_x=Ij3Wp8lg5Kz, line 1377: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ijWh4/yX/l/en_US/0THwjINDuU0.js?_nc_x=Ij3Wp8lg5Kz, line 1377: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ijWh4/yX/l/en_US/0THwjINDuU0.js?_nc_x=Ij3Wp8lg5Kz, line 1377: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3itBX4/yV/l/en_US/ELk19kgHKfe.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1655218056571	geckodriver	INFO	Listening on 127.0.0.1:46777
+1655218057366	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "51165" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofiledgpW4D"
+*** You are running in headless mode.
+1655218060266	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:51165
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiledgpW4D/search.json.mozlz4", (void 0)))
+1655218071525	Marionette	INFO	Listening on port 33959
+Read port: 33959
+1655218071866	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:51165/devtools/browser/8eb11e15-40b2-4abc-863d-f8fbe6364029
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ijWh4/yX/l/en_US/0THwjINDuU0.js?_nc_x=Ij3Wp8lg5Kz, line 949: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ijWh4/yX/l/en_US/0THwjINDuU0.js?_nc_x=Ij3Wp8lg5Kz, line 1377: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ijWh4/yX/l/en_US/0THwjINDuU0.js?_nc_x=Ij3Wp8lg5Kz, line 1377: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ijWh4/yX/l/en_US/0THwjINDuU0.js?_nc_x=Ij3Wp8lg5Kz, line 1377: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3itBX4/yV/l/en_US/ELk19kgHKfe.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1655218306695	geckodriver	INFO	Listening on 127.0.0.1:57061
+1655218308127	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "47621" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileHTkf92"
+*** You are running in headless mode.
+1655218310059	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:47621
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileHTkf92/search.json.mozlz4", (void 0)))
+1655218318157	Marionette	INFO	Listening on port 39485
+DevTools listening on ws://localhost:47621/devtools/browser/6c632caa-45a6-4a7f-b0b2-c8def6898d72
+Read port: 39485
+1655218318481	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ijWh4/yX/l/en_US/0THwjINDuU0.js?_nc_x=Ij3Wp8lg5Kz, line 949: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ijWh4/yX/l/en_US/0THwjINDuU0.js?_nc_x=Ij3Wp8lg5Kz, line 1377: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ijWh4/yX/l/en_US/0THwjINDuU0.js?_nc_x=Ij3Wp8lg5Kz, line 1377: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ijWh4/yX/l/en_US/0THwjINDuU0.js?_nc_x=Ij3Wp8lg5Kz, line 1377: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3itBX4/yV/l/en_US/ELk19kgHKfe.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1655233382292	geckodriver	INFO	Listening on 127.0.0.1:53837
+1655233383453	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "39811" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilevf7b1z"
+*** You are running in headless mode.
+1655233385987	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:39811
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilevf7b1z/search.json.mozlz4", (void 0)))
+1655233396707	Marionette	INFO	Listening on port 39305
+DevTools listening on ws://localhost:39811/devtools/browser/ee6f6a00-1698-4dd2-b8be-c8d2fbcab567
+Read port: 39305
+1655233396995	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+1655233427810	Marionette	INFO	Stopped listening on port 39305
+1655233887543	geckodriver	INFO	Listening on 127.0.0.1:46763
+1655233887660	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "39751" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileo3igJu"
+*** You are running in headless mode.
+1655233888453	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:39751
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileo3igJu/search.json.mozlz4", (void 0)))
+1655233893814	Marionette	INFO	Listening on port 41837
+Read port: 41837
+DevTools listening on ws://localhost:39751/devtools/browser/3f667617-77b7-4fec-a108-af8dae6e3c01
+1655233893918	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+1655233923040	Marionette	INFO	Stopped listening on port 41837
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1655235325752	geckodriver	INFO	Listening on 127.0.0.1:41441
+1655235325876	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "37581" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileURqfhr"
+*** You are running in headless mode.
+1655235326592	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:37581
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileURqfhr/search.json.mozlz4", (void 0)))
+1655235331503	Marionette	INFO	Listening on port 37813
+DevTools listening on ws://localhost:37581/devtools/browser/344bcdd0-e321-4546-aef1-88f25bbb6ff0
+Read port: 37813
+1655235331624	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+1655235361720	Marionette	INFO	Stopped listening on port 37813
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1655235899161	geckodriver	INFO	Listening on 127.0.0.1:43877
+1655235899298	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "36653" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile32r37z"
+*** You are running in headless mode.
+1655235900052	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:36653
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile32r37z/search.json.mozlz4", (void 0)))
+1655235905136	Marionette	INFO	Listening on port 46059
+Read port: 46059
+1655235905257	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:36653/devtools/browser/96c2f3bc-7ae5-41ef-9dc6-b2804da1a77d
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1655235935223	Marionette	INFO	Stopped listening on port 46059
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1655236857731	geckodriver	INFO	Listening on 127.0.0.1:34075
+1655236857841	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "41179" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilezhZ9YV"
+*** You are running in headless mode.
+1655236858596	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:41179
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilezhZ9YV/search.json.mozlz4", (void 0)))
+1655236863877	Marionette	INFO	Listening on port 38223
+DevTools listening on ws://localhost:41179/devtools/browser/fb7c0200-63b6-43f4-9900-10b612441af4
+Read port: 38223
+1655236863987	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1655236892831	Marionette	INFO	Stopped listening on port 38223
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1655236941014	geckodriver	INFO	Listening on 127.0.0.1:34599
+1655236941611	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "39135" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileSYnNYd"
+*** You are running in headless mode.
+1655236942347	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:39135
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileSYnNYd/search.json.mozlz4", (void 0)))
+1655236947702	Marionette	INFO	Listening on port 40425
+Read port: 40425
+1655236947771	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:39135/devtools/browser/9cd34527-8f79-4fdf-af34-26accff54361
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1655236977620	Marionette	INFO	Stopped listening on port 40425
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1655240943789	geckodriver	INFO	Listening on 127.0.0.1:42741
+1655240943906	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "53799" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileOUpbBS"
+*** You are running in headless mode.
+1655240944625	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:53799
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileOUpbBS/search.json.mozlz4", (void 0)))
+1655240949962	Marionette	INFO	Listening on port 45907
+Read port: 45907
+1655240950058	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:53799/devtools/browser/86a36463-853f-4363-a4ad-efd1d10e7dbe
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1655240981066	Marionette	INFO	Stopped listening on port 45907
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1655313664992	geckodriver	INFO	Listening on 127.0.0.1:55795
+1655313668982	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "43947" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileS8LdxH"
+*** You are running in headless mode.
+1655313677049	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:43947
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileS8LdxH/search.json.mozlz4", (void 0)))
+1655313692541	Marionette	INFO	Listening on port 41449
+Read port: 41449
+1655313692916	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:43947/devtools/browser/de9d05bc-bdfd-4e9f-9299-def3595ca99a
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1655313723271	Marionette	INFO	Stopped listening on port 41449
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+

@@ -4,11 +4,11 @@ import sqlalchemy as sa
 def return_connection_pyodbc():
       
     conexao = (
-        "Driver={SQL Server};"
-        "Server=BRUNO-COSTA\SQL_PROJECTS;"
-        "Database=PostNaHora;"
-        "User=sql_app;"
-        "Password=2486teste;"
+        "Driver={ODBC Driver 17 for SQL Server};"
+        "Server=tcp:localhost,1433;"
+        "Database=PostAtAtime;"
+        "UID=SA;"
+        "PWD=A123456#;"
     )
 
     return conexao
@@ -16,5 +16,5 @@ def return_connection_pyodbc():
 
 def return_connection_pandas():
 
-    engine = sa.create_engine('mssql+pymssql://sql_app:2486teste@BRUNO-COSTA\SQL_PROJECTS/PostNaHora')
+    engine = sa.create_engine('mssql+pymssql://SA:A123456#@localhost/PostAtAtime')
     return engine

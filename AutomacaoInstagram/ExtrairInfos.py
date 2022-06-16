@@ -1,20 +1,20 @@
 from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
+from selenium.webdriver import FirefoxOptions
 import time, os, random
 
 
-def userAutenticate(user, password):
+def userAutenticateInstagram(user, password):
     status = 0
 
-    chrome_options = Options()
+    optionsFirefox = FirefoxOptions()
 
-    chrome_options.add_argument("--headless")
+    optionsFirefox.headless = True
 
-    navegador = webdriver.Chrome("chromedriver.exe", options=chrome_options)
+    navegador = webdriver.Firefox(executable_path="./geckodriver", options=optionsFirefox)
 
     navegador.get("https://www.instagram.com/")
 
-    time.sleep(2)
+    time.sleep(10)
 
     navegador.find_element_by_xpath('//*[@id="loginForm"]/div/div[1]/div/label/input').send_keys(user)
 
@@ -22,7 +22,7 @@ def userAutenticate(user, password):
 
     navegador.find_element_by_xpath('//*[@id="loginForm"]/div/div[3]/button/div').click()
 
-    time.sleep(2)
+    time.sleep(10)
 
     errorAlert = navegador.find_elements_by_xpath('//*[@id="slfErrorAlert"]')
 
